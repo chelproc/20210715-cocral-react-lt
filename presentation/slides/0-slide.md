@@ -1,6 +1,6 @@
 # React の Ref とフォーカス管理におけるベストプラクティス
 
-株式会社 kikitori CTO
+[株式会社 kikitori](https://kikitori.jp/) CTO
 
 永谷 龍彦
 
