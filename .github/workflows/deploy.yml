@@ -26,6 +26,7 @@ jobs:
           allowUpdates: true
 
       - run: REMOTE_URL=https://chelproc.github.io/20210715-coral-react-lt/ npm run build
+      - run: touch dist/.nojekyll
       - uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
