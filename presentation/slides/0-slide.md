@@ -4,6 +4,29 @@
 
 永谷 龍彦
 
+[リポジトリ](https://github.com/chelproc/20210715-coral-react-lt)
+
+---
+
+## 自己紹介
+
+<!-- block-start: grid -->
+<!-- block-start: column -->
+
+![自己紹介](../resources/self.jpg)
+
+<!-- block-end -->
+<!-- block-start: column -->
+
+東京大学工学部システム創生学科環境・エネルギーシステム専攻。
+
+10 歳からプログラミングをスタート。14 歳で学内向け学習 Q&A サービスを開発。2018 年よりフリーランスとして活動を開始。フロントからバックエンドまで多様な言語を扱うフルスタックエンジニア。
+
+2019 年に株式会社 kikitori に参画。
+
+<!-- block-end -->
+<!-- block-end -->
+
 ---
 
 ## Ref とは
@@ -96,7 +119,7 @@ class Child extends Component<{}, { count: number }> {
   state = { count: 1 };
 
   increment() {
-    this.setState({ count: this.state.count + 1 });
+    this.setState((state) => ({ count: state.count + 1 }));
   }
 
   render() {
@@ -500,7 +523,7 @@ export default function Sample10() {
 <!-- block-start: grid -->
 <!-- block-start: column -->
 
-弊社 [kikitori](https://kikitori.jp/)は、国内農業流通の 8 割を占める **市場流通** の DX に取り組んでいます。
+弊社 [kikitori](https://kikitori.jp/)は、国内農業流通の **8 割** を占める **市場流通** の DX に取り組んでいます。
 
 私たちと日本の農業を未来をつくるプロダクトを開発しませんか？
 

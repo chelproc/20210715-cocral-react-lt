@@ -23,6 +23,7 @@ jobs:
           artifacts: slide.pdf
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
+          allowUpdates: true
 
       - run: REMOTE_URL=https://chelproc.github.io/20210715-cocral-react-lt/ npm run build
       - uses: JamesIves/github-pages-deploy-action@4.1.4

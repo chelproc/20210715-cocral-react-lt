@@ -4,7 +4,7 @@ class Child extends Component<{}, { count: number }> {
   state = { count: 1 };
 
   increment() {
-    this.setState({ count: this.state.count + 1 });
+    this.setState((state) => ({ count: state.count + 1 }));
   }
 
   render() {
