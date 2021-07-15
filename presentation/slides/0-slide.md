@@ -6,6 +6,8 @@
 
 [リポジトリ](https://github.com/chelproc/20210715-coral-react-lt)
 
+[サンプル](samples)
+
 ---
 
 ## 自己紹介
